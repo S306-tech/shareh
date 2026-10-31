@@ -18,7 +18,7 @@ resources = [
         "description": "Borrow a laptop for learning, projects and academic work.",
         "location": "Computer Lab",
         "availability": "Available",
-        "image": "images/laptop.jpg"
+        
     },
     {
         "id": 2,
@@ -26,7 +26,7 @@ resources = [
         "description": "Use a DSLR camera for photography and creative projects.",
         "location": "Media Room",
         "availability": "Available",
-        "image": "images/dslr-camera.jpg"
+        
     },
     {
         "id": 3,
@@ -34,7 +34,7 @@ resources = [
         "description": "Access shared laboratory equipment for experiments and research.",
         "location": "Science Laboratory",
         "availability": "Available",
-        "image": "images/lab-equipment.jpg"
+        
     }
 ]
 
