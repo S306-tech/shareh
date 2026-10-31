@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .table {
+        font-size: 13px;
+    }
+
+    .table td,
+    .table th {
+        padding: 8px;
+    }
+
+    .resource-image {
+        height: 200px;
+    }
+}

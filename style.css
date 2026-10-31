@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+}
+
+.navbar {
+    padding: 18px 0;
+}
+
+.hero {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #eff6ff, #ffffff);
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.hero h1 span {
+    color: #2563eb;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #64748b;
+    line-height: 1.8;
+    margin: 25px 0;
+}
+
+.search-section {
+    background: white;
+    padding: 30px;
+    margin-top: -30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px #00000012;
+    position: relative;
+}
+
+.search-section h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-space {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card {
+    border: 1px solid #e2e8f0;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px #00000012;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h4 {
+    font-weight: 700;
+}
+
+.how-section {
+    padding: 80px 0;
+    background: #eff6ff;
+}
+
+.how-section h2 {
+    font-weight: 800;
+}
+
+.how-section h4 {
+    color: #2563eb;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+footer {
+    background: #0f172a;
+    color: white;
+}
+
+footer p {
+    color: #94a3b8;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero img {
+        margin-top: 30px;
+    }
+}
